@@ -1,0 +1,1 @@
+git checkout -b add_gitignore echo -e '.bundle\n.sass-cache\n.vendor\n_site' > .gitignore git add .gitignore git commit -m 'Add .gitignore' git push origin add_gitignore
